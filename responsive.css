@@ -17,3 +17,12 @@
     display:inline-block;
   }
 }
+
+@keyframes test {
+  0% {bottom:0px}
+  45% {top:0px}
+  60% {top:40px}
+  75% {top:0px}
+  90% {top:20px}
+  100% {top:0px}
+}
