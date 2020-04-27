@@ -6,4 +6,8 @@
   .menu {
     display: inline-block;
   }
+
+  .isi1{
+    display:block;
+  }
 }
