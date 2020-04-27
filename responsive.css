@@ -1,9 +1,0 @@
-@media all and (max-width: 1000px) {
-  .hdr {
-    display: none;
-  }
-
-  .menu {
-    display: inline-block;
-  }
-}
