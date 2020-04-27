@@ -11,6 +11,20 @@
 background-color: rgba(107, 239, 233, 1);
 }
 
-.anggota img {
-  border:2px solid grey;
+.anggota img:hover {
+  border:2px solid black;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.menuisi a:hover {background-color: rgba(107, 239, 233, 1)}
+
+.dropdown:hover .menuisi {
+  display: block;
+}
+
+.dropdown:hover .menu {
+  background-color: #3e8e41;
 }
