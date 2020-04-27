@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C39</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style>
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+
+      #myBtn:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="hdr">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+        <a href="#">SQL</a>
+        <a href="#">MySQL</a>
+        <a href="#">PHP</a>
+      </div>
+    </header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <div class="intro">
+      <div class="introwrapper">
+        <p class="intro1">Ini adalah tugas pertama dari program DTS Kominfo dengan partner PROGATE</p>
+        <p class="intro2"><strong>Tertarik juga untuk belajar? langsung aja ke website PROGATE</strong></p>
+        <a href="progate.com">
+          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+        </a>
+      </div>
+    </div>
+    <div class="isi">
+      <p class="text">Kami tim C39<br><span>Orang-orang aktivis tapi dompet tipis bikin miris......</span></br></p>
+      <div class="isi1">
+        <div class="anggota">
+          <img src="gambar/anggota/bobi.jpg">
+          <div class="des">
+            <p class="nama"><q>Bobi</q></p>
+            <div class="tentang">PNS yang terpaksa belajar coding karena sekarang semua aplikasi basis WEB</div>
+          </div>
+        </div>
+        <div class="anggota">
+          <img src="gambar/anggota/danendra.jpg">
+          <p class="nama"><q>Danendra</q></p>
+          <div class="tentang">Mahasiswa yang sedang mencari jati diri<br>Bingung antara jadi Hokage atau Web Designer</br></div>
+        </div>
+        <div class="anggota">
+          <img src="gambar/anggota/dimaspurnomo.jpg">
+          <p class="nama"><q>Dimas Purnomo</q></p>
+          <div class="tentang">Mahasiswa super santuy<br>Dompet kecopetan masih bilang <q>Untung kunci motor gak ilang</q></div>
+        </div>
+        <div class="anggota">
+          <img src="gambar/anggota/antangin.jpg">
+          <p class="nama"><q>Antangin</q></p>
+          <div class="tentang">Penolak bala dan penolak masuk angin teman saat begadang belajar coding</div>
+        </div>
+        <div class="anggota">
+          <img src="gambar/anggota/kapalapi.jpg">
+          <p class="nama"><q>Kapal Api</q></p>
+          <div class="tentang">Penahan kantuk saat coding karena siang kerja/ kuliah</div>
+        </div>
+      </div>
+    </div>
+    <div class="extra2">
+      <div class="txt2">Bapak-bapak yang ganteng, ibu-ibu yang cantik, mbak-mbak yang semlohe kimplah-kimplah, mas-mas yang gagah, adik-adik yang unyu..... Lagi musim corona nih.
+        Sesuai anjuran pemerintah, stay safe di rumah ya. Jangan suka keluar-keluar kalo gak terpaksa. Bagi yang terpaksa harus keluar rumah mencari nafkah, semoga tetep sehat, rezekinya
+        makin banyak biar ada waktu lebih buat stay di rumah. Bagi yang habis keluar, jangan lupa buat cuci tangan ya sampe di rumah. Nih ada video cara cuci tangan yang baik, dilihat ya.
+        <br>PS: Buat yang jomblo sendirian di rumah/kosan, jangan lupa cuci hati juga. Jangan kebanyakan liat NSFW, ingat ini bulan Puasa....... :)</br>
+      </div>
+      <div class="video">
+        <iframe width="327" height="180" src="https://www.youtube.com/embed/ri3JkDwkeFw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright by kelompok C39.</p>
+    </footer>
+  </body>
+
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+</html>
